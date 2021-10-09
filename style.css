@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .jumbotron {
+    padding: 0;
+  }
+
+  .display-4 {
+      margin-left: 25px;
+  }
+
+  .lead {
+      margin-left: 25px;
+  }
+  
+  h1 {
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: bolder;
+  }
+  
+  h3, 
+  h4 {
+    font-weight: bolder;
+  }
+  
+  #search-city, 
+  #clear-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #search-button {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    margin-top: 10px;
+    height: 38px;
+  }
+  
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .col-sm-3 {
+    padding-left: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+  
+  }
+  
+  
+  .col-sm-2 {
+  border: 1px solid;
+  background-color: lightblue;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-right: 125px;
+    margin-left: 10px;
+  }
+  
+  .col-sm-8 {
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
