@@ -1,5 +1,5 @@
 # weather-dashboard
-https://mnguyen14.github.io/weather-dashboard/
+https://mnguyen14.github.io/weather-dashboard/index.HTML
 
 I created a weather dashboard using HTML, CSS, JS, and a third party API where you can search the weather for any city.
 It also has a 5 day forecast.
