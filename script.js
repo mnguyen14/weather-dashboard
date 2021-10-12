@@ -7,6 +7,7 @@ var lon;
 var uvIndex = $("#uv-index")
 var forecastContainer = $("#forecast-container")
 
+//initiate search via click
 $(".search-btn").on("click",function() {
 
     queryParam = $(this).prev().val();
@@ -24,6 +25,7 @@ $(".search-btn").on("click",function() {
    localStorage.setItem('cities', queryParam) 
 });
 
+//gets weather for City
 function  getWeather() {
     $.getJSON(weather, function(json) {
 
@@ -42,6 +44,7 @@ function  getWeather() {
     })
 }
 
+//gets UV Index for city
 function getUVIndex(){
      
     var uvEndpoint = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=" + apiKey
@@ -62,11 +65,13 @@ function getUVIndex(){
       }})    
 }
 
+//moment
 function getDate(){
     var date = document.querySelector("#current-date");
     date.innerHTML = moment().format("MMMM Do, YYYY")
 }
 
+//gets forecast for city
 function getForecast(){
     $.getJSON(forecast, function(json){
 
@@ -105,7 +110,6 @@ function getForecast(){
             $("#wind5").text("Wind: " + json.list[39].wind.speed + " MPH");
             $("#humidity5").text("Humidity: " + json.list[39].main.humidity + " %");
       }
-    });
-     
+    });     
 }
 

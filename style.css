@@ -14,18 +14,16 @@ body {
     margin: 5px;
 }
 
+/* classes for UV Index */
 .red {
     background-color: red;
 }
-
 .orange {
     background-color: orange;
 }
-
 .yellow {
     background-color: yellow;
 }
-
 .green {
     background-color: green;
 }
